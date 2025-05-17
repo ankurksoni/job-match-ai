@@ -1,0 +1,27 @@
+{
+  "name": "linkedin-job-matcher",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf ./dist/*",
+    "build": "tsc",
+    "start": "rm -rf dist;tsc;node dist/index.js"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.43",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.16.0",
+    "pdf-parse": "^1.1.1",
+    "playwright": "^1.41.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
